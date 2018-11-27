@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import ReactDOM from 'react-dom';
 
 import logo from "./../../assets/React-icon.svg";
 import "./App.css";
@@ -25,8 +24,4 @@ export default class App extends Component {
       </div>
     );
   }
-}
-
-if (document.getElementById('root')) {
-  ReactDOM.render(<App />, document.getElementById('root'));
 }
