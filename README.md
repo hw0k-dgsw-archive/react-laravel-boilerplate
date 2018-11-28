@@ -4,6 +4,10 @@ A React-Laravel Application which was made with Laravel Mix.
 
 Laravel Mix를 활용하여 만든 React-Laravel Boilerplate입니다.
 
+## Update Log
+
+- 2018-11-28: HMR 기능 추가 및 기본 사용
+
 ## Installation
 
 1. [Composer](https://getcomposer.org/download/)를 설치합니다.
@@ -33,17 +37,36 @@ Laravel Mix를 활용하여 만든 React-Laravel Boilerplate입니다.
    php artisan key:generate
    ```
 
-8. 다음 명령 중 하나를 실행합니다.
+## Run App (HMR)
+
+1. 다음 명령 중 하나를 실행합니다.
+
+   ```batch
+   npm run hot
+   yarn hot
+   ```
+
+2. 다음 명령을 실행하여 서버를 구동합니다.
+
+   ```batch
+   php artisan serve
+   ```
+
+3. 콘솔에서 표시된 곳으로 접속합니다.
+
+## Run App (Normal)
+
+1. 다음 명령 중 하나를 실행합니다.
 
    ```batch
    npm run watch
    yarn watch
    ```
 
-9. 다음 명령을 실행하여 `PHP Built-In` 서버를 구동합니다.
+2. 다음 명령을 실행하여 서버를 구동합니다.
 
    ```batch
-   php -S localhost:(포트 번호) -t public
+   php artisan serve
    ```
 
-10. 설정한 포트 번호로 접속합니다.
+3. 콘솔에서 표시된 곳으로 접속합니다.
