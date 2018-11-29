@@ -70,3 +70,20 @@ Laravel Mix를 활용하여 만든 React-Laravel Boilerplate입니다.
    ```
 
 3. 콘솔에서 표시된 곳으로 접속합니다.
+
+# Build App
+
+1. 다음 명령 중 하나를 실행합니다.
+
+   ```batch
+   npm run production
+   yarn production
+   ```
+
+2. 다음 명령을 실행하여 서버를 구동합니다.
+
+   ```batch
+   php artisan serve
+   ```
+
+3. 콘솔에서 표시된 곳으로 접속합니다.
