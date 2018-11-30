@@ -6,7 +6,7 @@ matrix:
       install:
         - yarn install
       script:
-        - yarn build
+        - yarn run build
     
     - language: php
       php:
@@ -14,7 +14,7 @@ matrix:
       install:
         - composer install
       script:
-        - php artisan serve
+        - phpunit
 
 notifications:
   email: false
