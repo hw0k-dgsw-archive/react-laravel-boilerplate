@@ -11,6 +11,8 @@ matrix:
     - language: php
       php:
         - 7.2.8
+      before_install:
+        - mv .env.example .env
       install:
         - composer install
       script:
