@@ -8,7 +8,10 @@ Laravel Mix를 활용하여 만든 React-Laravel Boilerplate입니다.
 
 ## Update Log
 
+- 2018-12-27: Laravel Mix 4.0으로 업데이트
+
 - 2018-11-30: Travis CI 연동
+
 - 2018-11-28: HMR 기능 추가 및 기본 사용
 
 ## Installation
